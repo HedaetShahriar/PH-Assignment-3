@@ -26,7 +26,8 @@
                 clifford: '#da373d',
                 'accent':'#FFDC26',
                 'text':'#111111',
-                'secondary': '#FFF9F4'
+                'secondary': '#FFF9F4',
+                'card': '#F9DF8A',
 
               }
             }
@@ -62,7 +63,6 @@
             <button class="py-3 text-xl border-2 rounded-lg border-accent px-7">Login</button>
             <button class="py-3 ml-3 text-xl rounded-lg px-7 bg-accent">Register</button>
           </div>
-          <!-- mobile nav button -->
           <div class="block md:hidden">
             <i class="text-2xl fa-solid fa-bars"></i>
           </div>
@@ -72,13 +72,13 @@
       </nav>
 
       <!-- Banner -->
-       <section class="container mx-auto px-2.5 my-9 md:my-11 lg:my-14 ">
+       <section class="container mx-auto px-2.5 my-9 md:my-11 lg:my-[75px] ">
        <!-- md:aspect-[16/9] md:bg-cover -->
         <h1 class="text-3xl font-adlam md:text-4xl lg:text-6xl">Pamper Your Pet,<br>
         Because They Deserve<br>
         the Bes</h1>
-        <p class="my-3 text-sm md:text-xl md:my-6 md:max-w-[530px] lg:max-w-[650px]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-        <button class="py-3 text-sm rounded-lg md:text-xl px-7 bg-accent">Find a pet</button>
+        <p class="my-3 text-base md:text-xl md:my-6 md:max-w-[530px] lg:max-w-[650px]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+        <button class="py-3 text-base rounded-lg md:text-xl px-7 bg-accent">Find a pet</button>
         <!-- Image Container -->
           <img src="./assets/cat-big.png" 
                alt="Happy cat" 
@@ -87,8 +87,47 @@
     </header>
     <!-- Main -->
     <main>
-      <section class="container mx-auto px-2.5">
+      <section class="container md:my-[75px] mx-auto px-2.5">
         <h1 class="text-2xl font-adlam md:text-3xl lg:text-4xl">Browse By Categories</h1>
+        <div class="grid grid-cols-2 gap-2.5 my-8 md:my-10 md:grid-cols-3 md:gap-4  lg:my-12 lg:grid-cols-6 lg:gap-6">
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/dog-cartoon.png" alt="" class="w-20 h-20 p-5 mx-auto bg-white rounded-full md:w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6
+            md:mb-3 text-xl font-adlam">Dog</h3>
+            <small class="text-base">3 items</small>
+          </div>
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/fish-cartoon.png" alt="" class="w-20 h-20 p-5 mx-auto bg-white rounded-full md:w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6
+            md:mb-3 text-xl font-adlam">Fish</h3>
+            <small class="text-base">3 items</small>
+          </div>
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/cat-cartoon.png" alt="" class="w-20 h-20 p-5 mx-auto bg-white rounded-full md:w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6
+            md:mb-3 text-xl font-adlam">Cat</h3>
+            <small class="text-base">3 items</small>
+          </div>
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/bird-cartoon.png" alt="" class="w-20 h-20 p-5 mx-auto bg-white rounded-full md:w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6
+            md:mb-3 text-xl font-adlam">Birds</h3>
+            <small class="text-base">3 items</small>
+          </div>
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/mouse-cartoon.png" alt="" class="w-20 h-20 p-5 mx-auto bg-white rounded-full md:w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6
+            md:mb-3 text-xl font-adlam">Small pet</h3>
+            <small class="text-base">3 items</small>
+          </div>
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/rabbit-cartoon.png" alt="" class="w-20 h-20 p-5 mx-auto bg-white rounded-full md:w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6
+            md:mb-3 text-xl font-adlam">Rabit</h3>
+            <small class="text-base">3 items</small>
+          </div>
+
+          
       </section>
     </main>
     <!-- Footer -->
