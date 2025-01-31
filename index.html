@@ -3,26 +3,89 @@
 <head>
     <meta charset="UTF-8" theme="light">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/4983b7a869.js" crossorigin="anonymous"></script>
+    <style>
+        .font-sora {
+            font-family: 'Sora', sans-serif;
+            font-weight: 400;
+        }
+        .font-adlam {
+            font-family: 'ADLaM Display', sans-serif;
+        }
+    </style>
     <script>
         tailwind.config = {
           theme: {
             extend: {
               colors: {
                 clifford: '#da373d',
+                'accent':'#FFDC26',
+                'text':'#111111',
+                'secondary': '#FFF9F4'
+
               }
             }
           }
         }
-      </script>
+    </script>
     <title>Assignment 3</title>
 </head>
-<body>
+<body class="font-sora">
     <!-- Header -->
-    <header></header>
+    <header>
+      <!-- nav -->
+      <nav class="bg-secondary">
+        <div class="container flex items-center justify-between px-2.5 py-3 mx-auto md:py-6">
+          <div class="flex items-center gap-2">
+            <img src="./assets/logo-header.png" alt="">
+            <h1 class="hidden text-2xl lg:block">Browse<span class="text-accent">4</span>Pets</h1>
+          </div>
+
+          <!-- nav links -->
+          <div class="hidden lg:block">
+            <ul class="flex md:gap-2 lg:gap-8">
+              <li><a href="#" class="text-xl">Find a pet</a></li>
+              <li><a href="#" class="text-xl">Breeds</a></li>
+              <li><a href="#" class="text-xl">Contact us</a></li>
+            </ul>
+          </div>
+
+          <!-- nav buttons -->
+          <div class="flex items-center hidden md:block">
+            <i class="text-2xl fa-regular fa-bell"></i>
+            <i class="mx-4 text-2xl fa-solid fa-magnifying-glass"></i>
+            <button class="py-3 text-xl border-2 rounded-lg border-accent px-7">Login</button>
+            <button class="py-3 ml-3 text-xl rounded-lg px-7 bg-accent">Register</button>
+          </div>
+          <!-- mobile nav button -->
+          <div class="block md:hidden">
+            <i class="text-2xl fa-solid fa-bars"></i>
+          </div>
+
+        </div>
+        </div>
+      </nav>
+
+      <!-- Banner -->
+       <section class="container mx-auto px-2.5 my-9 bg-[url('./assets/cat-big.png')] min-h-[500px]
+       bg-contain aspect-[16/9] md:min-h-[600px] bg-no-repeat bg-center md:my-11 lg:my-14">
+       <!-- md:aspect-[16/9] md:bg-cover -->
+        <h1 class="text-3xl font-adlam md:text-4xl lg:text-6xl">Pamper Your Pet,<br>
+        Because They Deserve<br>
+        the Bes</h1>
+        <p class="my-3 text-sm md:text-xl md:my-6 md:max-w-[530px] lg:max-w-[650px]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+        <button class="py-3 text-sm rounded-lg md:text-xl px-7 bg-accent">Find a pet</button>
+       </section>
+    </header>
     <!-- Main -->
-    <main></main>
+    <main>
+
+    </main>
     <!-- Footer -->
     <footer></footer>
     
