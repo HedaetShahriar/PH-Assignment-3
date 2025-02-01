@@ -89,7 +89,8 @@
        </section>
     </header>
     <!-- Main -->
-    <main>
+     <!-- mb-[120%] md:mb-[70%] -->
+    <main class="">
       <section class="container md:my-[75px] mx-auto px-2.5">
         <h1 class="text-2xl font-adlam md:text-3xl lg:text-4xl">Browse By Categories</h1>
         <div class="grid grid-cols-2 gap-2.5 my-8 md:my-10 md:grid-cols-3 md:gap-4  lg:my-12 lg:grid-cols-6 lg:gap-6">
@@ -132,9 +133,9 @@
       </section>
 
       <!-- trending Product -->
-       <section class="md:bg-secondary md:my-[75px]">
+      <section class="md:bg-secondary md:my-[75px]">
         <div class="container mx-auto md:py-10 px-2.5">
-          <h1 class="text-2xl lg:mt-16 font-adlam md:text-3xl lg:text-4xl">Everyday low Price</h1>
+          <h1 class="text-2xl lg:mt-16 font-adlam md:text-3xl lg:text-4xl">Trending Pet Products</h1>
           <div class="grid grid-cols-2 gap-4 my-8 md:my-10 lg:my-12 md:gap-5 lg:gap-6 md:grid-cols-3 lg:grid-cols-5">
             <!-- big card -->
             <div class="flex flex-col col-span-2 row-span-3 pt-12 pl-8 bg-card rounded-xl">
@@ -258,12 +259,93 @@
               </div>
             </div>
           </div>
-
         </div>
-       </section>
+      </section>
+      <section class="container -mb-[180px] mx-auto md:py-10 px-2.5">
+          <h1 class="text-2xl font-adlam md:text-3xl lg:text-4xl">Everyday low Price</h1>
+          <div class="flex flex-col gap-6 my-8 md:my-12 md:flex-row">
+            <div class="flex md:items-center md:w-3/5 rounded-xl bg-gradient-to-r from-purple-300 to-blue-300">
+              <div class="ml-8 mt-9 md:mt-0 md:ml-16">
+                <small class="hidden md:block">Under Price</small>
+                <h1 class="text-xl md:text-3xl font-adlam">Pet Grooming Mitt</h1>
+                <small class="hidden text-2xl text-white md:block font-adlam">(Easy Hair Removal)</small>
+                <h1 class="text-4xl md:text-6xl font-adlam">$7.99</h1>
+              </div>
+              <div class="flex items-end">
+                <img class="w-full" src="./assets/cute-dog-mid.png" alt="">
+              </div>
+            </div>
+            <div class="flex md:w-2/5 rounded-xl bg-gradient-to-r from-secondary to-amber-200">
+              <div class="ml-8 mt-9 md:mt-14 md:ml-12">
+                <h2 class="text-xl md:text-3xl font-adlam">T-Shirt for Dogs</h2>
+                <h1 class="text-4xl md:text-6xl font-adlam text-amber-400">$7.99</h1>
+              </div>
+              <div class="flex items-end">
+                <img class="md:w-full" src="./assets/cute-pet-mid.png" alt="">
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="container z-10 -bottom-[200px] relative mx-auto px-2.5">
+        <div class="flex flex-col justify-center gap-8 py-10 rounded-xl bg-secondary margin md:gap-10 md:flex-row ">
+          <div class="mx-auto md:mx-0">
+            <img src="./assets/cute-pet-mid.png" alt="">
+          </div>
+          <div class="text-center md:text-left md:mt-14">
+            <h1 class="text-2xl md:text-3xl lg:text-4xl font-adlam">T-Shirt For Dogs</h1>
+            <p class="my-5 text-sm md:text-base">Discover a world of treats, toys, and essentials handpicked for </p>
+            <div>
+              <input type="text" placeholder="Enter email" class="w-3/4 px-5 py-3 text-sm rounded-lg md:text-base">
+            </div>
+            <div>
+              <button class="px-5 py-3 text-base rounded-lg mt-7 bg-accent md:text-xl md:px-7">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer -->
-    <footer></footer>
-    
+    <footer class="bg-card pt-[200px]">
+      <section class=" container mx-auto px-2.5">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+          <div class="my-14">
+            <div class="flex items-center gap-2">
+              <img src="./assets/logo-footer.png" alt="">
+              <h1 class="text-2xl">Browse<span class="text-accent">4</span>Pets</h1>
+            </div>
+            <p class="mt-4 max-w-96 md:mt-6 opacity-70">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+          </div>
+           <!-- Find pet -->
+          <div>
+            <ul class="mt-4 md:mt-0">
+              <li><a href="#" class="text-sm">Find a pet</a></li>
+              <li><a href="#" class="text-sm">Breeds</a></li>
+              <li><a href="#" class="text-sm">Contact us</a></li>
+            </ul>
+          </div>
+          <!-- Social media -->
+          <div class="">
+            <h1 class="text-sm md:text-xl mt-9">Follow Us</h1>
+            <ul class="flex my-5 gap-7">
+              <li><a href="#">
+                <img src="./assets/facebook.png" alt="">
+              </a></li>
+              <li><a href="#">
+                <img src="./assets/instragram.png" alt="">
+              </a></li>
+              <li><a href="#">
+                <img src="./assets/linkdn.png" alt="">
+              </a></li>
+              <li><a href="#">
+                <img src="./assets/youtube.png" alt="">
+              </a></li>
+            </ul>
+          </div>
+        
+        </div>
+
+      </section>
+      
+    </footer>
 </body>
 </html>
