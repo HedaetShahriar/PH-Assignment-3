@@ -62,8 +62,8 @@
              <div class="flex items-center">
                <i class="text-2xl fa-regular fa-bell"></i>
                <i class="mx-4 text-2xl fa-solid fa-magnifying-glass"></i>
-               <button class="py-3 text-xl border-2 rounded-lg border-accent px-7">Login</button>
-               <button class="py-3 ml-3 text-xl rounded-lg px-7 bg-accent">Register</button>
+               <button class="py-3 text-xl border-2 rounded-lg hover:bg-accent border-accent px-7">Login</button>
+               <button class="py-3 ml-3 text-xl border-2 rounded-lg border-accent hover:bg-transparent px-7 bg-accent">Register</button>
              </div>
            </div>
           <div class="block md:hidden">
@@ -79,17 +79,16 @@
        <!-- md:aspect-[16/9] md:bg-cover -->
         <h1 class="text-3xl animate-pulse font-adlam md:text-4xl lg:text-6xl">Pamper Your Pet,<br>
         Because They Deserve<br>
-        the Bes</h1>
-        <p class="my-3 text-base md:text-xl md:my-6 md:max-max-w-[530px] lg:max-max-w-[650px]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-        <button class="py-3 text-base rounded-lg md:text-xl px-7 bg-accent">Find a pet</button>
+        the Best</h1>
+        <p class="my-3 text-base md:text-xl md:my-6 md:max-w-[530px] lg:max-w-[650px]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+        <button class="py-3 text-base border-2 rounded-lg border-accent hover:bg-transparent md:text-xl px-7 bg-accent">Find a pet</button>
         <!-- Image Container -->
           <img src="./assets/cat-big.png" 
                alt="Happy cat" 
-               class="relative object-cover object-center max-w-full -mt-24 md:-mt-56 lg:-mt-80 -z-10">
+               class="relative object-cover object-center w-full -mt-24 md:-mt-56 lg:-mt-80 -z-10">
        </section>
     </header>
     <!-- Main -->
-     <!-- mb-[120%] md:mb-[70%] -->
     <main class="">
       <section class="container md:my-[75px] mx-auto px-2.5">
         <h1 class="text-2xl font-adlam md:text-3xl lg:text-4xl">Browse By Categories</h1>
@@ -131,6 +130,32 @@
             <small class="text-base">3 items</small>
           </div>
       </section>
+      <!-- Featured Products Extra-->
+      <section class="container mx-auto px-2.5 my-9 md:my-11 lg:my-[75px]">
+        <h1 class="text-2xl font-adlam md:text-3xl lg:text-4xl">Featured Products</h1>
+        <div class="grid grid-cols-2 gap-4 my-8 md:my-10 lg:my-12 md:gap-5 lg:gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/dog-cartoon.png" alt="Product 1" class="h-20 p-5 mx-auto bg-white rounded-full max-w-20 md:max-w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6 md:mb-3 text-xl font-adlam">Dog</h3>
+            <small class="text-base">$19.99</small>
+          </div>
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/bird-cartoon.png" alt="Product 2" class="h-20 p-5 mx-auto bg-white rounded-full max-w-20 md:max-w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6 md:mb-3 text-xl font-adlam">Birds</h3>
+            <small class="text-base">$29.99</small>
+          </div>
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/mouse-cartoon.png" alt="Product 3" class="h-20 p-5 mx-auto bg-white rounded-full max-w-20 md:max-w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6 md:mb-3 text-xl font-adlam">Mouse</h3>
+            <small class="text-base">$39.99</small>
+          </div>
+          <div class="p-8 text-center rounded-xl bg-card">
+            <img src="./assets/rabbit-cartoon.png" alt="Product 4" class="h-20 p-5 mx-auto bg-white rounded-full max-w-20 md:max-w-24 md:h-24 md:p-7">
+            <h3 class="mt-5 mb-2.5 md:mt-6 md:mb-3 text-xl font-adlam">Rabbit</h3>
+            <small class="text-base">$49.99</small>
+          </div>
+        </div>
+      </section>
 
       <!-- trending Product -->
       <section class="md:bg-secondary md:my-[75px]">
@@ -162,7 +187,7 @@
             </div>
             <!-- 2nd card -->
             <div class="flex items-center gap-4 p-4 bg-white border-2 border-br rounded-xl">
-              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/dog-cartoon.png" alt="">
+              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/fish-cartoon.png" alt="">
               <div>
                 <div class="flex items-center gap-1">
                   <i class="text-sm fa-solid fa-star text-accent md:text-xl"></i>
@@ -174,7 +199,7 @@
             </div>
             <!-- 3rd card -->
             <div class="flex items-center gap-4 p-4 bg-white border-2 border-br rounded-xl">
-              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/dog-cartoon.png" alt="">
+              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/bird-cartoon.png" alt="">
               <div>
                 <div class="flex items-center gap-1">
                   <i class="text-sm fa-solid fa-star text-accent md:text-xl"></i>
@@ -186,7 +211,7 @@
             </div>
             <!-- 4th card -->
             <div class="flex items-center gap-4 p-4 bg-white border-2 border-br rounded-xl">
-              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/dog-cartoon.png" alt="">
+              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/rabbit-cartoon.png" alt="">
               <div>
                 <div class="flex items-center gap-1">
                   <i class="text-sm fa-solid fa-star text-accent md:text-xl"></i>
@@ -198,7 +223,7 @@
             </div>
             <!-- 5th card -->
             <div class="flex items-center gap-4 p-4 bg-white border-2 border-br rounded-xl">
-              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/dog-cartoon.png" alt="">
+              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/bird-cartoon.png" alt="">
               <div>
                 <div class="flex items-center gap-1">
                   <i class="text-sm fa-solid fa-star text-accent md:text-xl"></i>
@@ -210,7 +235,7 @@
             </div>
             <!-- 6th card -->
             <div class="flex items-center gap-4 p-4 bg-white border-2 border-br rounded-xl">
-              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/dog-cartoon.png" alt="">
+              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/pet-couch.png.png" alt="">
               <div>
                 <div class="flex items-center gap-1">
                   <i class="text-sm fa-solid fa-star text-accent md:text-xl"></i>
@@ -222,7 +247,7 @@
             </div>
             <!-- 7th card -->
             <div class="flex items-center gap-4 p-4 bg-white border-2 border-br rounded-xl">
-              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/dog-cartoon.png" alt="">
+              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/fish-cartoon.png" alt="">
               <div>
                 <div class="flex items-center gap-1">
                   <i class="text-sm fa-solid fa-star text-accent md:text-xl"></i>
@@ -234,7 +259,7 @@
             </div>
             <!-- 8th card -->
             <div class="flex items-center gap-4 p-4 bg-white border-2 border-br rounded-xl">
-              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/dog-cartoon.png" alt="">
+              <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/pet-couch.png" alt="">
               <div>
                 <div class="flex items-center gap-1">
                   <i class="text-sm fa-solid fa-star text-accent md:text-xl"></i>
@@ -247,7 +272,7 @@
             <!-- 9th card -->
             <div class="hidden md:block">
               <div class="flex items-center gap-4 p-4 bg-white border-2 border-br rounded-xl">
-                <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/dog-cartoon.png" alt="">
+                <img class="p-3 md:p-5 max-w-20 bg-secondary rounded-xl" src="/assets/rabbit-cartoon.png" alt="">
                 <div>
                   <div class="flex items-center gap-1">
                     <i class="text-sm fa-solid fa-star text-accent md:text-xl"></i>
@@ -287,7 +312,7 @@
           </div>
       </section>
       <section class="container z-10 -bottom-[200px] relative mx-auto px-2.5">
-        <div class="flex flex-col justify-center gap-8 py-10 rounded-xl bg-secondary margin md:gap-10 md:flex-row ">
+        <div class="flex flex-col justify-center gap-8 py-10 rounded-xl bg-secondary md:gap-10 md:flex-row ">
           <div class="mx-auto md:mx-0">
             <img src="./assets/cute-pet-mid.png" alt="">
           </div>
@@ -298,7 +323,7 @@
               <input type="text" placeholder="Enter email" class="w-3/4 px-5 py-3 text-sm rounded-lg md:text-base">
             </div>
             <div>
-              <button class="px-5 py-3 text-base rounded-lg mt-7 bg-accent md:text-xl md:px-7">Subscribe</button>
+              <button class="px-5 py-3 text-base border-2 rounded-lg border-accent hover:bg-transparent mt-7 bg-accent md:text-xl md:px-7">Subscribe</button>
             </div>
           </div>
         </div>
