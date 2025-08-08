@@ -13,16 +13,13 @@ A modern, responsive pet products website built with HTML, CSS, Tailwind CSS, an
 
 ## 🚀 Live Demo
 
-🔗 **[View Live Demo](https://hedaetshahriar.github.io/PH-Assignment-3/)**
+🔗 **[View Live Demo](https://hedaetshahriar.github.io/Browse4Pets/)**
 
-## 📸 Screenshots
-
-### Desktop View
-![Desktop Screenshot](https://via.placeholder.com/800x600/FFDC26/111111?text=Browse4Pets+Desktop)
-
-### Mobile View
-![Mobile Screenshot](https://via.placeholder.com/400x800/FFDC26/111111?text=Browse4Pets+Mobile)
-
+<!-- ## 📸 Screenshots -->
+<!-- ### Desktop View -->
+<!-- [Desktop Screenshot](https://via.placeholder.com/800x600/FFDC26/111111?text=Browse4Pets+Desktop) -->
+<!-- ### Mobile View -->
+<!-- [Mobile Screenshot](https://via.placeholder.com/400x800/FFDC26/111111?text=Browse4Pets+Mobile) -->
 ## 🛠️ Built With
 
 - **HTML5** - Semantic markup structure
